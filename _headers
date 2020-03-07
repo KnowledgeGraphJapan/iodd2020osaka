@@ -58,6 +58,15 @@
   Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-tags-query-tsx-16611a4b43e8a32ab151.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/tags/page-data.json>; rel=preload; as=fetch; crossorigin
+/techbookfest-lod-book
+  Link: </webpack-runtime-b63b0886e23fc1d9dc76.js>; rel=preload; as=script
+  Link: </commons-2adc7299fbcda25dca3e.js>; rel=preload; as=script
+  Link: </app-0feb806ab0da59c17de2.js>; rel=preload; as=script
+  Link: </styles-e5a9303a52135b598c83.js>; rel=preload; as=script
+  Link: </commons-2adc7299fbcda25dca3e.js>; rel=preload; as=script
+  Link: </component---node-modules-lekoarts-gatsby-theme-minimal-blog-core-src-templates-post-query-tsx-799f7ce9e962da56508b.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/techbookfest-lod-book/page-data.json>; rel=preload; as=fetch; crossorigin
 /about-iodd2020osaka
   Link: </webpack-runtime-b63b0886e23fc1d9dc76.js>; rel=preload; as=script
   Link: </commons-2adc7299fbcda25dca3e.js>; rel=preload; as=script

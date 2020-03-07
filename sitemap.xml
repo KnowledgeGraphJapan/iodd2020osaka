@@ -3,6 +3,7 @@
 <url> <loc>http://iodd2020.lodosaka.jp/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://iodd2020.lodosaka.jp/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://iodd2020.lodosaka.jp/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>http://iodd2020.lodosaka.jp/techbookfest-lod-book</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://iodd2020.lodosaka.jp/about-iodd2020osaka</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>http://iodd2020.lodosaka.jp/about</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
