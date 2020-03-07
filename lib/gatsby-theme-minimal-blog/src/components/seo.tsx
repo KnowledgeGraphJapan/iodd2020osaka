@@ -31,13 +31,16 @@ const SEO = ({ title, description, pathname, image, children }: Props) => {
     author,
   } = site
 
+  // 引数のpathname が取得できないときは location.pathname を使う
+  // pathname = pathname || location.pathname;
+  
   const seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
     url: `${siteUrl}${pathname || ``}`,
     image: `${siteUrl}${image || defaultImage}`,
   }
-  // seo.url が pathname を取得できないので、削除
+
   return (
     <Helmet title={title} defaultTitle={defaultTitle} titleTemplate={`%s | ${siteTitle}`}>
       <html lang={siteLanguage} />
@@ -50,7 +53,6 @@ const SEO = ({ title, description, pathname, image, children }: Props) => {
       <meta property="og:image:alt" content={seo.description} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={seo.title} />
-      <meta name="twitter:url" content={seo.url} />
       <meta name="twitter:description" content={seo.description} />
       <meta name="twitter:image" content={seo.image} />
       <meta name="twitter:image:alt" content={seo.description} />
@@ -62,7 +64,7 @@ const SEO = ({ title, description, pathname, image, children }: Props) => {
       {children}
     </Helmet>
   )
-/*
+  /*
   return (
     <Helmet title={title} defaultTitle={defaultTitle} titleTemplate={`%s | ${siteTitle}`}>
       <html lang={siteLanguage} />
@@ -88,7 +90,7 @@ const SEO = ({ title, description, pathname, image, children }: Props) => {
       {children}
     </Helmet>
   )
-*/
+  */
 }
 
 export default SEO
