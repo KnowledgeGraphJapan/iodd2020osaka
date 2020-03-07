@@ -7,7 +7,7 @@ module.exports = {
   pathPrefix: "/",
   siteMetadata: {
     siteTitle: `インターナショナル・オープンデータ・デイ2020 大阪`,
-    siteTitleAlt: `IODD2020 OSAKA`,
+    siteTitleAlt: `インターナショナル・オープンデータ・デイ2020 大阪`,
     siteHeadline: `インターナショナル・オープンデータ・デイ2020 大阪`,
     // Will be used to generate absolute URLs for og:image etc.
     siteUrl: `http://iodd2020.lodosaka.jp/`,
@@ -69,8 +69,8 @@ module.exports = {
       options: {
         name: `インターナショナル・オープンデータ・デイ2020 大阪`,
         short_name: `IODD2020 OSAKA`,
-        description: `オンラインイベントとして開催する「IODD2020 OSAKA」の成果をまとめるページです．`,
-        start_url: `/iodd2020osaka/`,
+        description: `2020年3月7日から17日までの間、「インターナショナル・オープンデータ・デイ2020 大阪」をオンラインイベントとして開催しています。テーマは「大阪・関西のオープンデータの“いま”を集めよう！」です。`,
+        start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
         display: `standalone`,
