@@ -3,7 +3,8 @@ require(`dotenv`).config({
 })
 
 module.exports = {
-  pathPrefix: "/iodd2020osaka",
+  // pathPrefix: "/iodd2020osaka",
+  pathPrefix: "/",
   siteMetadata: {
     siteTitle: `インターナショナル・オープンデータ・デイ2020 大阪`,
     siteTitleAlt: `IODD2020 OSAKA`,
